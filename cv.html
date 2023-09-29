@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title>gallery</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/slide.js"></script>
+    <script src="../js/etc.js"></script>
+    <script src="../js/modal.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header" class="guide_line">
+            <div class="inner">
+                <h1>
+                    <a href="index.html"><img src="../images/common/logo.svg" alt="logo_image"></a>
+                </h1>
+                <nav>
+                    <ul class="gnb">
+                        <li class="gnb_list"><a href="profile.html">Artist</a>
+                            <ul class="lnb">
+                                <li class="lnb_list"><a href="profile.html">작가소개</a></li>
+                                <li class="lnb_list"><a href="cv.html">약력</a></li>
+                                <li class="lnb_list"><a href="select_work.html">대표 작품</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb_list"><a href="archive.html">Archive</a>
+                            <ul class="lnb">
+                                <li class="lnb_list"><a href="archive.html#tab01">봄</a></li>
+                                <li class="lnb_list"><a href="archive.html#tab02">여름</a></li>
+                                <li class="lnb_list"><a href="archive.html#tab03">가을</a></li>
+                                <li class="lnb_list"><a href="archive.html#tab04">겨울</a></li>
+                                <li class="lnb_list"><a href="archive.html#tab05">ETC</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb_list"><a href="exhibition.html">Exhibitions</a></li>
+                        <li class="gnb_list"><a href="news.html">News</a></li>
+                    </ul>
+                    <div class="nav_btn">
+                        <img src="../images/common/menu_icon.png" alt="menu_icon">
+                    </div>
+                </nav>
+                <div class="menu_wrap">
+                    <div class="inner guide_line">
+                        <div class="menu_logo"><img src="../images/common/logo_wh.svg" alt="logo_image"></div>
+                        <div class="menu_nav">
+                            <ul class="menu_gnb">
+                                <li class="menu_gnb_list"><a href="profile.html">Artist</a>
+                                    <ul class="menu_lnb">
+                                        <li class="menu_lnb_list"><a href="profile.html">작가소개</a></li>
+                                        <li class="menu_lnb_list"><a href="cv.html">약력</a></li>
+                                        <li class="menu_lnb_list"><a href="select_work.html">대표 작품</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu_gnb_list"><a href="archive.html">Archive</a>
+                                    <ul class="menu_lnb">
+                                        <li class="menu_lnb_list"><a href="archive.html#tab01">봄</a></li>
+                                        <li class="menu_lnb_list"><a href="archive.html#tab02">여름</a></li>
+                                        <li class="menu_lnb_list"><a href="archive.html#tab03">가을</a></li>
+                                        <li class="menu_lnb_list"><a href="archive.html#tab04">겨울</a></li>
+                                        <li class="menu_lnb_list"><a href="archive.html#tab05">ETC</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu_gnb_list"><a href="exhibition.html">Exhibitions</a></li>
+                                <li class="menu_gnb_list"><a href="news.html">News</a></li>
+                            </ul>
+                            <div class="menu_btn_wrap">
+                                <button type="button" class="menu_btn">
+                                    <img src="../images/common/close_icon.png" alt="close_icon">
+                                </button>
+                                <div class="menu_img">
+                                    <img src="../images/common/nav_img.png" alt="nav_image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="wrap_content" class="cv_page">
+            <div class="wrap_inner">
+                <section class="sub_banner">
+                    <div class="sub_banner_img">
+                        <img src="../images/artist/sub_banner.png" alt="sub_banner_image">
+                        <img src="../images/artist/sub_banner_mb.png" alt="sub_banner_image">
+                    </div>
+                    <div class="sub_banner_txt">
+                        <p>Artist</p>
+                        <span>아티스트</span>
+                    </div>
+                </section>
+                <section class="sub_content guide_line">
+                    <div class="page_guide_wrap">
+                        <ul class="page_guide">
+                            <a href="index.html" class="icon"><img src="../images/common/home_icon.svg" alt="home_icon"></a>
+                            <li>Home</li>
+                            <li class="icon"><img src="../images/common/arrow_right.svg" alt="arrow_right_icon"></li>
+                            <li>Artist</li>
+                            <li class="icon"><img src="../images/common/arrow_right.svg" alt="arrow_right_icon"></li>
+                            <li>CV</li>
+                        </ul>
+                        <ul class="page_list">
+                            <li><a href="profile.html">Profile</a></li>
+                            <li><a href="cv.html" class="active">CV</a></li>
+                            <li><a href="select_work.html">Selected Works</a></li>
+                        </ul>
+                    </div>
+                    <div class="artist_history">
+                        <div class="top">
+                            <h2 class="title"> son<br class="pc_br">
+                                kyung soo<br class="pc_br">
+                                Curriculum<br class="pc_br">
+                                Vitae<small>걸어 온 길</small>
+                            </h2>
+                            <div class="history_txt">
+                                <div class="left">
+                                    <p data-aos="fade-up" data-aos-duration="1200">1965 경북 영양 출생</p>
+                                    <ul data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                                        <li>현) 영양미술인 협회장</li>
+                                        <li>현) 신작전, 경북수채화협회, 심현회, 일월산맥전, 안동미술협회 회원</li>
+                                        <li>현) 불빛미술대전, 울산미술대전, 야송미술대전 심사위원</li>
+                                        <li>전) 신라미술대전, 울산광역시미술대전 운영위원, 심사위원 역임</li>
+                                        <li>전) 경상북도미술대전 운영위원회 초대작가, 심사위원 역임</li>
+                                    </ul>
+                                </div>
+                                <div class="right">
+                                    <p data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">학력</p>
+                                    <ul data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                                        <li>2000 안동대학교 교육대학원 미술교육전공 수료</li>
+                                        <li>1991 안동대학교 예술대학 서양학부 서양화전공 졸업</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom guide_line">
+                            <img src="../images/cv/history_banner.png" alt="history_banner_image">
+                        </div>
+                    </div>
+                </section>
+                <section class="awards guide_line">
+                    <h2 class="title">Awards <small>걸어 온 길</small></h2>
+                    <div class="awards_content">
+                        <ul>
+                            <li>
+                                <div class="awards_content_list">
+                                    <div class="img_inner"><img src="../images/cv/award_inner01.png" alt="award_list_image"></div>
+                                    <div class="img_outer"><img src="../images/cv/award_outer01.png" alt="award_list_image"></div>
+                                </div>
+                                <p><span>2006</span>대한민국미술대전 양화 구상부분 특선</p>
+                            </li>
+                            <li>
+                                <div class="awards_content_list">
+                                    <div class="img_inner"><img src="../images/cv/award_inner02.png" alt="award_list_image"></div>
+                                    <div class="img_outer"><img src="../images/cv/award_outer02.png" alt="award_list_image"></div>
+                                </div>
+                                <p><span>1997</span>한국미술문화대상전공모작품, 양화부분 은상</p>
+                            </li>
+                            <li>
+                                <div class="awards_content_list">
+                                    <div class="img_inner"><img src="../images/cv/award_inner03.png" alt="award_list_image"></div>
+                                    <div class="img_outer"><img src="../images/cv/award_outer03.png" alt="award_list_image"></div>
+                                </div>
+                                <p><span>1996</span>경상북도 미술대전 특선, 신라미술대전 특선 외 27회</p>
+                            </li>
+                        </ul>
+                        <div class="awards_wrap">
+                            <div class="individual">
+                                <div class="inner">
+                                    <div>
+                                        <span>주요 개인전</span>
+                                        <p>Solo<br class="pc_br">
+                                        Exhibition</p>
+                                    </div>
+                                    <span>26회</span>
+                                </div>
+                            </div>
+                            <div class="organization">
+                                <div class="inner">
+                                    <div>
+                                        <span>주요 단체전</span>
+                                        <p>Group<br class="pc_br">
+                                        Exhibition</p>
+                                    </div>
+                                    <span>570회</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="awards_history">
+                    <ul>
+                        <li class="outer">
+                            <p>2022</p>
+                            <ul>
+                                <li class="one_line">손경수 기획 초대전, 영양문화원</li>
+                            </ul>
+                        </li>
+                        <li class="outer">
+                            <p>2021</p>
+                            <ul>
+                                <li>안동시, 지역작가 400호 특별기획전,<br class="pc_br">
+                                    안동문화예술의 전당</li>
+                            </ul>
+                        </li>
+                        <li class="outer">
+                            <p>2020</p>
+                            <ul>
+                                <li class="one_line">손경수 화가 초대전, 지훈 문학관</li>
+                            </ul>
+                        </li>
+                        <li class="outer">
+                            <p>2018</p>
+                            <ul>
+                                <li class="one_line">영양의 사계, 이육사 문학관</li>
+                            </ul>
+                        </li>
+                        <li class="outer">
+                            <p>2017</p>
+                            <ul>
+                                <li class="one_line">내 마음의 창, 강남역 갤러리 G아르체</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="outer">
+                            <p>2022</p>
+                            <ul>
+                                <li>신작전, 인사아트프라자</li>
+                                <li>송울진전, 울진∙서울</li>
+                                <li>안동미술인협회전, 안동문화예술의 전당</li>
+                                <li>영양미술인협회전, 영양문화원</li>
+                                <li>심현회, 안동문화예술의 전당</li>
+                            </ul>
+                        </li>
+                        <li class="outer">
+                            <p>2015</p>
+                            <ul>
+                                <li>경북아트페스티벌, 한터 예술합동교류전,<br class="pc_br"> 갤러리 경북∙종로구 인사동</li>
+                                <li>울산아트페어, 울산KBS홀</li>
+                            </ul>
+                        </li>
+                        <li class="outer">
+                            <p>2014</p>
+                            <ul>
+                                <li class="one_line">한국구상미술초대전, 울산문화예술회관</li>
+                            </ul>
+                        </li>
+                        <li class="outer">
+                            <p>2008</p>
+                            <ul>
+                                <li>치앙마이를 가다, 롯데화랑</li>
+                                <li>청록집 60주년 기념 “詩가 畵를 만나다”, 영양군청</li>
+                            </ul>
+                        </li>
+                        <li class="outer">
+                            <p>2007</p>
+                            <ul>
+                                <li class="one_line">베트남 캄보디아 기행전, 롯데화랑</li>
+                            </ul>
+                        </li>
+                        <li class="outer">
+                            <p>2006</p>
+                            <ul>
+                                <li>제14회 배알도 바다미술제 기획<br class="pc_br">
+                                    한국 살아있는자연100인전,<br class="pc_br">
+                                    광양문화예술회관∙포항포스코갤러리</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <footer id="footer" class="guide_line">
+            <h2><img src="../images/common/footer_logo.svg" alt="footer_logo"></h2>
+            <div class="footer_content">
+                <div class="footer_left">
+                    <div class="footer_contact">
+                        <span>E-mail sys2399@daum.net</span>
+                        <span>Tel 054-682-2399</span>
+                    </div>
+                    <p>
+                        copyright 2020. SON KYUNG SOO. all rights reserved. All pictures cannot be copied without permission.<br class="pc_br">
+                        이곳의 모든 사진들은 허가 없이 복사할 수 없습니다. 모든 저작권은 작가 손경수에게 있습니다.
+                    </p>
+                    <span class="privacy">개인정보처리방침</span>
+                </div>
+                <div class="footer_right">
+                    <ul>
+                        <li class="contact_open"><a href="javascript:void(0)">Contact</a></li>
+                        <li><a href="https://www.facebook.com/%EC%86%90%EA%B2%BD%EC%88%98-%EA%B0%A4%EB%9F%AC%EB%A6%AC-228082040633850" target="_blank">Facebook</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exhibition.html">Exhibitions</a></li>
+                        <li><a href="archive.html">Archive</a></li>
+                        <li class="shop_open"><a href="javascript:void(0)">Shop</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <ul class="quick_menu">
+        <li><a href="exhibition.html">Exhibitions</a></li>
+        <li><a href="archive.html">Archive</a></li>
+        <li class="shop_open"><a href="javascript:void(0)">Shop</a></li>
+        <li onclick="window.scroll(0,0);"><a href="javascript:void(0)">TOP</a></li>
+    </ul>
+    <div class="modal privacy_modal">
+        <div class="content">
+            <div class="inner">
+                <div class="privacy_title">
+                    <p>개인정보 처리방침</p>
+                    <div class="modal_close">
+                        <img src="../images/common/close_icon.svg" alt="close_icon">
+                    </div>
+                </div>
+                <div class="modal_txt">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!</p>
+                </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </div>
+    <div class="modal contact_privacy_modal">
+        <div class="content">
+            <div class="inner">
+                <div class="privacy_title">
+                    <p>개인정보 처리방침</p>
+                    <button type="button" class="contact_privacy_close">이전으로</button>
+                </div>
+                <div class="modal_txt">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eaque at sapiente autem, quisquam hic nam recusandae veniam quos reprehenderit molestiae, iste ab iure sit in iusto. Non, excepturi provident!</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact_privacy_overlay"></div>
+    </div>
+    <div class="modal contact_modal">
+        <div class="content">
+            <div class="title_box">
+              <p class="title">contact</p>
+              <div class="modal_close">
+                <img src="../images/common/close_icon.svg" alt="close_icon">
+              </div>
+            </div>
+            <div class="contact_content">
+                <div class="contact_left">
+                    <div>
+                        <span class="select_title">문의유형</span>
+                        <div class="select_box">
+                            <div class="select_btn">선택하세요</div>
+                            <div class="select_list">
+                                <ul>
+                                    <li>list</li>
+                                    <li>list</li>
+                                    <li>list</li>
+                                    <li>list</li>
+                                    <li>list</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="name">이름</label>
+                        <input type="text" id="name" placeholder="이름을 입력해주세요.">
+                    </div>
+                    <div>
+                        <label for="tel">연락처</label>
+                        <input type="text" id="tel" oninput="hypenTel(this)" maxlength="13" placeholder="숫자만 입력해주세요.">
+                    </div>
+                    <div>
+                        <label for="mail">이메일</label>
+                        <input type="email" id="mail" placeholder="이메일을 입력해주세요.">
+                    </div>
+                    <div>
+                        <label for="title">제목</label>
+                        <input type="text" id="title" placeholder="제목을 입력해주세요.">
+                    </div>
+                </div>
+                <div class="contact_right">
+                    <div>
+                        <label for="textarea">내용</label>
+                        <textarea id="textarea" placeholder="내용을 입력해주세요."></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="contact_bottom">
+                <div class="agree_wrap">
+                    <input type="checkbox" id="agree">
+                    <label for="agree"><span class="contact_privacy">개인정보처리방침</span>에 동의</label>
+                </div>
+                <button type="button" class="modal_close finish_btn">문의하기</button>
+            </div>
+            <!-- ! alert 문구 -->
+            <!-- <div id ="error_first" class="error_txt">
+                <span><img src="../images/common/alert_icon.svg" alt="alert_icon"></span>
+                <p>필수 항목을 전체 입력해주세요.</p>
+            </div> -->
+            <!-- <div id="error_second" class="error_txt">
+                <span><img src="../images/common/alert_icon.svg" alt="alert_icon"></span>
+                <p>개인정보처리방침에 동의해주세요.</p>
+            </div> -->
+        </div>
+        <div class="overlay"></div>
+    </div>
+    <div class="modal contact_finish">
+        <div class="content">
+            <p>문의가 <span>완료</span>되었습니다</p>
+            <p>문의가 완료문의가 완료문의가 완료</p>
+            <button type="button">확인</button>
+        </div>
+        <div class="overlay"></div>
+    </div>
+</body>
+<script>
+    const hypenTel = (target) => {
+        target.value = target.value
+        .replace(/[^0-9]/g, '')
+        .replace(/^(\d{2,3})(\d{3,4})(\d{4})$/, `$1-$2-$3`);
+    }
+    
+    AOS.init();
+</script>
+</html>
