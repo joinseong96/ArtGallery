@@ -1,0 +1,2004 @@
+@media screen and (max-width: 1680px) {
+  #wrap_content.intro .section01 .intro_text {
+    font-size: calc(100vw * (82 / 1680));
+  }
+
+  #wrap_content.intro .section01 .intro_text span:first-child {
+    margin-bottom: calc(100vw * (5 / 1680));
+  }
+
+  #wrap_content.intro .section01 .skip_button {
+    bottom: calc(100vw * (100 / 1680));
+    width: calc(100vw * (175 / 1680));
+    height: calc(100vw * (57 / 1680));
+    font-size: calc(100vw * (18 / 1680));
+    border: calc(100vw * (2 / 1680)) solid #fff;
+    border-radius: calc(100vw * (500 / 1680));
+  }
+  /* intro */
+
+  .main_banner {
+    margin-bottom: calc(100vw * (190 / 1680));
+  }
+  .main_slide_list {
+    width: calc(100vw * (1550 / 1680));
+    height: calc(100vw * (765 / 1680));
+  }
+  .main_txt {
+    top: calc(100vw * (265 / 1680));
+  }
+  .main_txt p:first-of-type {
+    margin-bottom: calc(100vw * (40 / 1680));
+    font-size: calc(100vw * (82 / 1680));
+  }
+  .main_txt p:last-of-type {
+    margin-bottom: calc(100vw * (52 / 1680));
+    font-size: calc(100vw * (22 / 1680));
+  }
+  .main_txt button {
+    width: calc(100vw * (336 / 1680));
+    height: calc(100vw * (57 / 1680));
+    font-size: calc(100vw * (18 / 1680));
+    border: calc(100vw * (2 / 1680)) solid #ffffff;
+  }
+  .main_txt button {
+    -webkit-backdrop-filter: blur(calc(100vw * (11 / 1680)));
+  }
+  /* ! main_banner area fin */
+  .major_work {
+    padding: 0 0 calc(100vw * (200 / 1680)) calc(100vw * (60 / 1680));
+    gap: calc(100vw * (117 / 1680));
+    background: url("../images/main/year_bg.png") left bottom
+      calc(100vw * (-323 / 1680)) / calc(100vw * (1200 / 1680)) no-repeat;
+  }
+  .major_work h2 {
+    padding-top: calc(100vw * (126 / 1680));
+  }
+  .major_work h2 a {
+    margin-top: calc(100vw * (15 / 1680));
+  }
+
+  .major_work .work_wrap {
+    height: calc(100vw * (1000 / 1680));
+    gap: calc(100vw * (38 / 1680));
+    margin-right: 0;
+  }
+  .major_work .work_list:first-of-type {
+    margin-bottom: calc(100vw * (50 / 1680));
+  }
+  .major_work .work_img {
+    margin-bottom: calc(100vw * (20 / 1680));
+  }
+  .major_work .work_txt p {
+    margin-bottom: calc(100vw * (3 / 1680));
+    font-size: calc(100vw * (18 / 1680));
+  }
+  .major_work .work_txt span {
+    font-size: calc(100vw * (18 / 1680));
+  }
+  .major_work .work_wrap .work_img {
+    width: calc(100vw * (445 / 1680));
+    height: calc(100vw * (283 / 1680));
+  }
+  /* !major work area */
+  .season {
+    padding: calc(100vw * (100 / 1680)) 0 calc(100vw * (100 / 1680))
+      calc(100vw * (60 / 1680));
+  }
+  .season .inner {
+    width: calc(100vw * (1484 / 1680));
+  }
+  .season_img {
+    width: calc(100vw * (843 / 1680));
+    height: calc(100vw * (777 / 1680));
+  }
+  .season_txt h2 {
+    margin-bottom: calc(100vw * (50 / 1680));
+    font-size: calc(100vw * (62 / 1680));
+  }
+  .season_txt p {
+    font-size: calc(100vw * (16 / 1680));
+  }
+  .season_txt p:first-of-type {
+    margin-bottom: calc(100vw * (17 / 1680));
+  }
+  /* !season_area fin */
+  .about {
+    padding: calc(100vw * (250 / 1680)) calc(100vw * (10 / 1680));
+  }
+  .about h2 {
+    margin-bottom: calc(100vw * (60 / 1680));
+    font-size: calc(100vw * (82 / 1680));
+  }
+  .about_left {
+    width: calc(100vw * (1005 / 1680));
+    height: calc(100vw * (830 / 1680));
+  }
+  .about_right {
+    padding-top: calc(100vw * (138 / 1680));
+  }
+  .about_txt span {
+    margin-bottom: calc(100vw * (22 / 1680));
+    font-size: calc(100vw * (24 / 1680));
+  }
+  .about_txt p {
+    font-size: calc(100vw * (16 / 1680));
+  }
+  .about_txt p:first-of-type {
+    margin-bottom: calc(100vw * (24 / 1680));
+  }
+  .about_txt p:last-of-type {
+    margin-bottom: calc(100vw * (47 / 1680));
+  }
+  .about_bg01 {
+    width: calc(100vw * (192 / 1680));
+    top: calc(100vw * (364 / 1680));
+  }
+  .about_bg02 {
+    width: calc(100vw * (255 / 1680));
+    left: calc(100vw * (124 / 1680));
+  }
+  .about_bg03 {
+    width: calc(100vw * (394 / 1680));
+    top: calc(100vw * (156 / 1680));
+    left: calc(100vw * (460 / 1680));
+  }
+  .about_bg04 {
+    width: calc(100vw * (344 / 1680));
+    right: calc(100vw * (732 / 1680));
+  }
+  .about_bg05 {
+    width: calc(100vw * (322 / 1680));
+    bottom: calc(100vw * (154 / 1680));
+  }
+  /* !abour area fin */
+  .main_exhibition {
+    margin-bottom: calc(100vw * (200 / 1680));
+  }
+  .exhib_title {
+    padding-left: calc(100vw * (160 / 1680));
+    margin-bottom: calc(100vw * (60 / 1680));
+    gap: calc(100vw * (35 / 1680));
+  }
+  .exhib_title a {
+    margin-bottom: calc(100vw * (43 / 1680));
+  }
+  .exhib_slide {
+    width: calc(100vw * (1425 / 1680));
+    height: calc(100vw * (640 / 1680));
+  }
+  .exhib_first {
+    padding-bottom: calc(100vw * (40 / 1680));
+  }
+  .main_exhibition .swiper-pagination-bullet {
+    width: calc(100vw * (235 / 1680));
+    height: calc(100vw * (5 / 1680));
+  }
+  .main_exhibition .swiper-pagination-bullet:not(:last-of-type) {
+    margin: 0 calc(100vw * (20 / 1680)) 0 0 !important;
+  }
+  .exhib_second {
+    width: calc(100vw * (360 / 1680));
+    margin: calc(100vw * (40 / 1680)) 0 0 calc(100vw * (285 / 1680));
+  }
+  .exhib_second .exhib_slide_content {
+    width: calc(100vw * (360 / 1680));
+  }
+  .exhib_slide_content p {
+    margin-bottom: calc(100vw * (13 / 1680));
+    font-size: calc(100vw * (36 / 1680));
+  }
+  .exhib_slide_content span {
+    font-size: calc(100vw * (16 / 1680));
+  }
+  .main_exhibition button {
+    bottom: calc(100vw * (20 / 1680));
+    margin-left: calc(100vw * (380 / 1680));
+    width: calc(100vw * (240 / 1680));
+    height: calc(100vw * (47 / 1680));
+    font-size: calc(100vw * (18 / 1680));
+    border: calc(100vw * (2 / 1680)) solid #333333;
+  }
+  /* !exhibition area fin */
+  .main_archive {
+    padding: 0 calc(100vw * (60 / 1680)) calc(100vw * (108 / 1680));
+    margin-left: 0;
+    gap: calc(100vw * (26 / 1680));
+  }
+  .first .main_archive_img {
+    width: calc(100vw * (563 / 1680));
+    height: calc(100vw * (585 / 1680));
+  }
+  .second .main_archive_img {
+    width: calc(100vw * (666 / 1680));
+    height: calc(100vw * (423 / 1680));
+    margin-top: calc(100vw * (280 / 1680));
+  }
+  .third .main_archive_img {
+    width: calc(100vw * (756 / 1680));
+    height: calc(100vw * (446 / 1680));
+  }
+  .fourth .main_archive_img {
+    width: calc(100vw * (578 / 1680));
+    height: calc(100vw * (382 / 1680));
+  }
+  .main_archive_top {
+    height: calc(100vw * (830 / 1680));
+    gap: calc(100vw * (140 / 1680));
+  }
+  .main_archive_bottom {
+    height: calc(100vw * (657 / 1680));
+    gap: calc(100vw * (45 / 1680));
+  }
+  .main_archive .second div:first-of-type {
+    top: calc(100vw * (67 / 1680));
+  }
+  .main_archive .second span {
+    font-size: calc(100vw * (24 / 1680));
+  }
+  .main_archive .second p {
+    margin-bottom: calc(100vw * (15 / 1680));
+    font-size: calc(100vw * (82 / 1680));
+  }
+
+  .main_archive .first p,
+  .main_archive .fourth p {
+    margin: calc(100vw * (15 / 1680)) 0 calc(100vw * (3 / 1680));
+    font-size: calc(100vw * (18 / 1680));
+  }
+  .main_archive .first span,
+  .main_archive .fourth span {
+    font-size: calc(100vw * (18 / 1680));
+  }
+  /* !main_archive area fin */
+
+  /* !artist */
+  .about_title {
+    margin: calc(100vw * (250 / 1680)) 0 calc(100vw * (200 / 1680));
+  }
+  .about_title p {
+    margin-bottom: calc(100vw * (45 / 1680));
+    font-size: calc(100vw * (62 / 1680));
+  }
+  .about_title div {
+    width: calc(100vw * (922 / 1680));
+  }
+  /* .about_title_wrap > div:last-of-type{height: calc(100vw*(380/1680));} */
+  /* !about_title area */
+  .about_season {
+    margin-bottom: calc(100vw * (250 / 1680));
+    padding: calc(100vw * (250 / 1680)) calc(100vw * (60 / 1680))
+      calc(100vw * (170 / 1680));
+  }
+  .about_season .work_wrap {
+    width: calc(100vw * (920 / 1680));
+    height: calc(100vw * (1303 / 1680));
+  }
+  .about_season li {
+    width: calc(100vw * (420 / 1680));
+  }
+  .about_season li div {
+    margin-bottom: calc(100vw * (10 / 1680));
+  }
+  .about_season li span {
+    font-size: calc(100vw * (14 / 1680));
+  }
+  .about_season .left li:first-of-type,
+  .about_season .right li:first-of-type {
+    margin-bottom: calc(100vw * (60 / 1680));
+  }
+  .about_season .left li:first-of-type div {
+    height: calc(100vw * (532 / 1680));
+  }
+  .about_season .left li:last-of-type div {
+    height: calc(100vw * (420 / 1680));
+  }
+
+  .about_season_txt {
+    width: calc(100% - calc(100vw * (1020 / 1680)));
+    padding: calc(100vw * (220 / 1680)) 0 0;
+  }
+  .about_season_txt h2 {
+    margin-bottom: calc(100vw * (80 / 1680));
+    font-size: calc(100vw * (62 / 1680));
+  }
+  .about_season_txt p {
+    font-size: calc(100vw * (16 / 1680));
+  }
+  .about_season_txt p:first-of-type {
+    margin-bottom: calc(100vw * (27 / 1680));
+  }
+  /* !about_season area */
+  .artist_about {
+    margin-bottom: calc(100vw * (250 / 1680));
+  }
+  .artist_about .top {
+    padding-left: calc(100vw * (60 / 1680));
+    margin-bottom: calc(100vw * (100 / 1680));
+  }
+  .artist_about .bottom {
+    height: calc(100vw * (260 / 1680));
+  }
+  .artist_about h2 {
+    margin-bottom: calc(100vw * (80 / 1680));
+    font-size: calc(100vw * (62 / 1680));
+  }
+  .artist_about h2::before {
+    top: calc(100vw * (-35 / 1680));
+  }
+  .artist_about .left p {
+    font-size: calc(100vw * (16 / 1680));
+  }
+  .artist_about .left p:not(:last-of-type) {
+    margin-bottom: calc(100vw * (16 / 1680));
+  }
+  .artist_about .left {
+    width: calc(100% - calc(100vw * (800 / 1680)));
+  }
+  .artist_about .right {
+    width: calc(100vw * (800 / 1680));
+    height: calc(100vw * (668 / 1680));
+  }
+
+  .work_place_list {
+    width: calc(100vw * (1020 / 1680));
+  }
+  .work_place_list div,
+  .work_place_list p {
+    width: calc(100vw * (460 / 1680));
+    height: calc(100vw * (260 / 1680));
+  }
+  .work_place_list p {
+    font-size: calc(100vw * (42 / 1680));
+    border-radius: calc(100vw * (200 / 1680));
+  }
+  /* !artist_about */
+
+  .contact_map {
+    margin-bottom: calc(100vw * (150 / 1680));
+    padding: calc(100vw * (113 / 1680)) calc(100vw * (160 / 1680));
+  }
+  #daumRoughmapContainer1685525277650 {
+    width: calc(100vw * (986 / 1680)) !important;
+    margin-bottom: calc(100vw * (30 / 1680));
+  }
+  #daumRoughmapContainer1685525277650 .wrap_map {
+    height: calc(100vw * (532 / 1680)) !important;
+  }
+
+  .contact_map .inner {
+    width: calc(100vw * (986 / 1680));
+  }
+  .contact_map .inner p {
+    font-size: calc(100vw * (42 / 1680));
+  }
+  .contact_map .inner span {
+    margin-left: calc(100vw * (30 / 1680));
+    font-size: calc(100vw * (22 / 1680));
+  }
+  /* !contact map */
+  /* !cv page area */
+  .artist_history {
+    margin: calc(100vw * (143 / 1680)) 0 calc(100vw * (200 / 1680));
+  }
+  .artist_history .top {
+    margin-bottom: calc(100vw * (100 / 1680));
+  }
+  .history_txt {
+    width: calc(100vw * (958 / 1680));
+  }
+  .history_txt .left {
+    width: calc(100vw * (483 / 1680));
+  }
+  .history_txt .right {
+    width: calc(100% - calc(100vw * (520 / 1680)));
+  }
+  .artist_history h2 {
+    font-size: calc(100vw * (62 / 1680));
+  }
+  .artist_history small {
+    font-size: calc(100vw * (24 / 1680));
+  }
+  .history_txt p {
+    margin-bottom: calc(100vw * (30 / 1680));
+    font-size: calc(100vw * (32 / 1680));
+  }
+  .history_txt ul {
+    padding-left: calc(100vw * (10 / 1680));
+  }
+  .history_txt li {
+    padding-left: calc(100vw * (15 / 1680));
+    font-size: calc(100vw * (16 / 1680));
+  }
+  .history_txt li::before {
+    width: calc(100vw * (4 / 1680));
+    height: calc(100vw * (4 / 1680));
+  }
+
+  .artist_history .bottom {
+    height: calc(100vw * (496 / 1680));
+  }
+  /* !history area fin */
+  .awards {
+    margin-bottom: calc(100vw * (60 / 1680));
+  }
+  .awards .title {
+    margin-bottom: calc(100vw * (52 / 1680));
+    gap: calc(100vw * (5 / 1680));
+  }
+  .awards_content ul {
+    margin-bottom: calc(100vw * (200 / 1680));
+  }
+  .awards_content li {
+    width: calc(100vw * (440 / 1680));
+  }
+  .awards_content_list {
+    margin-bottom: calc(100vw * (30 / 1680));
+  }
+  .img_inner {
+    width: calc(100vw * (400 / 1680));
+    height: calc(100vw * (400 / 1680));
+  }
+  .img_outer {
+    height: calc(100vw * (532 / 1680));
+  }
+  .img_outer::after {
+    -webkit-backdrop-filter: blur(calc(100vw * (107 / 1680)));
+    border-radius: calc(100vw * (20 / 1680));
+  }
+  .awards_content li span {
+    margin-bottom: calc(100vw * (15 / 1680));
+    font-size: calc(100vw * (42 / 1680));
+  }
+  .awards_content li p {
+    font-size: calc(100vw * (20 / 1680));
+  }
+
+  .awards_wrap {
+    width: calc(100vw * (1440 / 1680));
+  }
+  .awards_wrap .inner {
+    width: calc(100vw * (600 / 1680));
+  }
+  .awards_wrap .inner div span {
+    margin-bottom: calc(100vw * (5 / 1680));
+    font-size: calc(100vw * (24 / 1680));
+  }
+  .awards_wrap .inner p {
+    font-size: calc(100vw * (62 / 1680));
+  }
+  .awards_wrap .inner > span {
+    width: calc(100vw * (144 / 1680));
+    height: calc(100vw * (144 / 1680));
+    font-size: calc(100vw * (42 / 1680));
+    border: calc(100vw * (2 / 1680)) solid #333;
+  }
+  /* !awards area fin */
+  .awards_history {
+    padding: calc(100vw * (100 / 1680)) calc(100vw * (160 / 1680))
+      calc(100vw * (150 / 1680));
+    border-top: calc(100vw * (2 / 1680)) solid #c5cad1;
+  }
+  .awards_history .outer {
+    gap: calc(100vw * (85 / 1680));
+  }
+  .awards_history .outer:not(:last-of-type) {
+    margin-bottom: calc(100vw * (44 / 1680));
+  }
+  .awards_history p {
+    font-size: calc(100vw * (42 / 1680));
+  }
+  .awards_history .outer li {
+    padding-left: calc(100vw * (20 / 1680));
+    font-size: calc(100vw * (20 / 1680));
+  }
+  /* !awards history area */
+  /* !selected work page */
+  .selected {
+    padding-bottom: calc(100vw * (65 / 1680));
+  }
+  .selected_works {
+    margin: calc(100vw * (150 / 1680)) 0 calc(100vw * (200 / 1680));
+  }
+  .selected_title {
+    padding-left: calc(100vw * (160 / 1680));
+    margin-bottom: calc(100vw * (60 / 1680));
+    gap: calc(100vw * (55 / 1680));
+  }
+  .selected_title a {
+    margin-bottom: calc(100vw * (43 / 1680));
+  }
+  .selected_slide {
+    width: calc(100vw * (982 / 1680));
+    height: calc(100vw * (704 / 1680));
+  }
+  .selected_slide .img_content {
+    padding-top: calc(100vw * (44 / 1680));
+    height: calc(100vw * (556 / 1680));
+  }
+  .selected_slide .img_content img {
+    max-width: calc(100vw * (895 / 1680));
+    max-height: calc(100vw * (556 / 1680));
+  }
+  .selected_slide .txt_content {
+    bottom: calc(100vw * (37 / 1680));
+  }
+  .selected_slide .txt_content p {
+    margin-bottom: calc(100vw * (5 / 1680));
+    font-size: calc(100vw * (18 / 1680));
+  }
+  .selected_slide .txt_content span {
+    font-size: calc(100vw * (13 / 1680));
+  }
+  .selected_first {
+    padding-bottom: calc(100vw * (40 / 1680));
+  }
+  .selected_works .swiper-pagination-bullet {
+    width: calc(100vw * (235 / 1680));
+    height: calc(100vw * (5 / 1680));
+  }
+  .selected_works .swiper-pagination-bullet:not(:last-of-type) {
+    margin: 0 calc(100vw * (13 / 1680)) 0 0 !important;
+  }
+  /* !selected works */
+  .latest_works {
+    padding-bottom: calc(100vw * (150 / 1680));
+  }
+
+  .latest_title {
+    margin-bottom: calc(100vw * (60 / 1680));
+  }
+  .gallery_work {
+    padding: calc(100vw * (46 / 1680)) 0 calc(100vw * (37 / 1680));
+    margin-bottom: calc(100vw * (80 / 1680));
+    gap: calc(100vw * (38 / 1680));
+  }
+  .gallery_work .outer {
+    height: calc(100vw * (633 / 1680));
+  }
+  .gallery_work .outer::after {
+    -webkit-backdrop-filter: blur(calc(100vw * (94 / 1680)));
+    border-radius: calc(100vw * (20 / 1680));
+  }
+
+  .gallery_work img.inner {
+    max-width: calc(100vw * (990 / 1680));
+    max-height: calc(100vw * (448 / 1680));
+  }
+
+  .gallery_work button {
+    width: calc(100vw * (230 / 1680));
+    height: calc(100vw * (55 / 1680));
+    font-size: calc(100vw * (16 / 1680));
+    border-radius: calc(100vw * (20 / 1680));
+  }
+
+  .thumb_work {
+    gap: calc(100vw * (100 / 1680)) calc(100vw * (40 / 1680));
+  }
+  .thumb_work li {
+    width: calc(100vw * (320 / 1680));
+  }
+  .thumb_work li.active::after {
+    border-top: calc(100vw * (5 / 1680)) solid #c5cad1;
+  }
+  .thumb_work .outer {
+    height: calc(100vw * (240 / 1680));
+    margin-bottom: calc(100vw * (15 / 1680));
+  }
+  .thumb_work p {
+    font-size: calc(100vw * (14 / 1680));
+  }
+  .thumb_work img.inner {
+    max-width: calc(100vw * (280 / 1680));
+    max-height: calc(100vw * (196 / 1680));
+  }
+  /* !latest_works */
+
+  .category_wrap {
+    gap: calc(100vw * (40 / 1680));
+  }
+  .category_wrap .page_list li {
+    font-size: calc(100vw * (20 / 1680));
+  }
+  .category_wrap .select_period {
+    width: calc(100vw * (150 / 1680));
+    padding: calc(100vw * (11 / 1680)) calc(100vw * (18 / 1680));
+    background: url("../images/common/arrow_bottom.svg") center right
+        calc(100vw * (18 / 1680)) / calc(100vw * (20 / 1680)) no-repeat,
+      #eff1f2;
+  }
+  .category_wrap .select_period.on {
+    border-radius: calc(100vw * (23 / 1680)) calc(100vw * (23 / 1680)) 0 0;
+    background: url("../images/common/arrow_top.svg") center right
+        calc(100vw * (18 / 1680)) / calc(100vw * (20 / 1680)) no-repeat,
+      #eff1f2;
+  }
+  .category_wrap .period_list {
+    width: calc(100vw * (150 / 1680));
+  }
+
+  .category_wrap .select_period.on + .period_list {
+    top: calc(100vw * (40 / 1680));
+    border-radius: 0 0 calc(100vw * (23 / 1680)) calc(100vw * (23 / 1680));
+  }
+  /* !archive page */
+
+  .gallery_container {
+    max-width: calc(100vw * (1400 / 1680));
+    margin: calc(100vw * (150 / 1680)) 0 auto;
+  }
+
+  .gallery-wrapper {
+    margin-bottom: calc(100vw * (70 / 1680));
+  }
+  .col {
+    width: 100%;
+  }
+
+  /* .grid-sizer,
+      .grid-item{
+          width: calc(100vw*(375/1680));
+      } */
+
+  .grid-item {
+    margin-bottom: calc(100vw * (40 / 1680));
+  }
+
+  .grid-item .img_content {
+    margin-bottom: calc(100vw * (15 / 1680));
+  }
+  .grid-item .txt_content p {
+    margin-bottom: calc(100vw * (5 / 1680));
+    font-size: calc(100vw * (14 / 1680));
+  }
+  .grid-item .txt_content span {
+    font-size: calc(100vw * (13 / 1680));
+  }
+
+  .img-fluid {
+    border-radius: calc(100vw * (10 / 1680));
+  }
+  .archive_logo {
+    width: calc(100vw * (243 / 1680));
+    height: calc(100vw * (40 / 1680));
+  }
+  /* !archive page fin */
+
+  .detail_wrap {
+    margin: calc(100vw * (100 / 1680)) auto calc(100vw * (156 / 1680));
+  }
+  .news_detail .detail_wrap {
+    margin: calc(100vw * (100 / 1680)) auto calc(100vw * (86 / 1680));
+    padding-bottom: calc(100vw * (80 / 1680));
+  }
+  .detail_title {
+    padding-bottom: calc(100vw * (50 / 1680));
+    margin-bottom: calc(100vw * (100 / 1680));
+    border-bottom: calc(100vw * (2 / 1680)) solid #333;
+  }
+  .detail_title p {
+    margin-bottom: calc(100vw * (15 / 1680));
+    font-size: calc(100vw * (42 / 1680));
+  }
+  .detail_title small {
+    font-size: calc(100vw * (20 / 1680));
+  }
+
+  .detail_content {
+    width: calc(100vw * (1250 / 1680));
+  }
+  .detail_content .img_content {
+    margin-bottom: calc(100vw * (50 / 1680));
+  }
+  .detail_content .txt_content {
+    margin-bottom: calc(100vw * (100 / 1680));
+    font-size: calc(100vw * (18 / 1680));
+  }
+  .detail_content button {
+    width: calc(100vw * (230 / 1680));
+    height: calc(100vw * (55 / 1680));
+    font-size: calc(100vw * (16 / 1680));
+    border-radius: calc(100vw * (10 / 1680));
+  }
+
+  .works_move_wrap {
+    margin-top: calc(100vw * (80 / 1680));
+    padding-top: calc(100vw * (80 / 1680));
+    border-top: calc(100vw * (2 / 1680)) solid #eff1f2;
+  }
+  .works_move_wrap > div {
+    width: calc(100vw * (700 / 1680));
+    height: calc(100vw * (215 / 1680));
+  }
+  .works_move_wrap .inner {
+    gap: calc(100vw * (19 / 1680));
+  }
+  .works_prev .inner {
+    left: calc(100vw * (38 / 1680));
+  }
+  .works_next .inner {
+    right: calc(100vw * (38 / 1680));
+  }
+  .works_move_wrap > div span {
+    font-size: calc(100vw * (24 / 1680));
+  }
+  .works_move_wrap .inner div:first-of-type {
+    width: calc(100vw * (125 / 1680));
+  }
+  /* !archive detailpt page */
+
+  /* !exhibition page area */
+  .exhibit_works {
+    margin: calc(100vw * (100 / 1680)) auto calc(100vw * (63 / 1680));
+  }
+  .exhibit_works_content ul {
+    gap: calc(100vw * (100 / 1680)) calc(100vw * (59 / 1680));
+  }
+  .exhibit_works_content li {
+    width: calc(100vw * (425 / 1680));
+  }
+  .exhibit_works_content .outer {
+    height: calc(100vw * (324 / 1680));
+  }
+  .exhibit_works_content img.inner {
+    max-width: calc(100vw * (380 / 1680));
+    max-height: calc(100vw * (280 / 1680));
+  }
+  .exhibit_works_content .thumb_work {
+    margin-bottom: calc(100vw * (70 / 1680));
+  }
+  .exhibit_works_content .thumb_work span,
+  .news_content .thumb_work span {
+    margin-top: calc(100vw * (5 / 1680));
+    font-size: calc(100vw * (13 / 1680));
+  }
+  .exhibition button,
+  .news_content button {
+    height: calc(100vw * (55 / 1680));
+    font-size: calc(100vw * (16 / 1680));
+  }
+  /* !exhibition page fin */
+  .describe_content {
+    width: calc(100vw * (1250 / 1680));
+    margin: calc(100vw * (100 / 1680)) auto 0;
+    padding: 0 0 calc(100vw * (80 / 1680));
+  }
+  .describe_left h2 {
+    margin-bottom: calc(100vw * (35 / 1680));
+    font-size: calc(100vw * (42 / 1680));
+  }
+  .work_period {
+    width: calc(100vw * (364 / 1680));
+    height: calc(100vw * (48 / 1680));
+    margin-bottom: calc(100vw * (20 / 1680));
+    gap: calc(100vw * (15 / 1680));
+    border-radius: calc(100vw * (24 / 1680));
+  }
+  .work_period span {
+    font-size: calc(100vw * (22 / 1680));
+  }
+  .describe_left p {
+    font-size: calc(100vw * (22 / 1680));
+  }
+  .describe_right {
+    width: calc(100vw * (706 / 1680));
+  }
+  .describe_right p {
+    font-size: calc(100vw * (18 / 1680));
+  }
+  .describe_right p:not(:last-of-type) {
+    margin-bottom: calc(100vw * (30 / 1680));
+  }
+  .describe_works {
+    padding-top: calc(100vw * (100 / 1680));
+    margin-bottom: calc(100vw * (156 / 1680));
+    border-top: calc(100vw * (2 / 1680)) solid #333;
+  }
+  .describe_wrap {
+    padding-bottom: calc(100vw * (80 / 1680));
+    margin-bottom: calc(100vw * (80 / 1680));
+    border-bottom: calc(100vw * (2 / 1680)) solid #eff1f2;
+  }
+  .describe_img {
+    height: calc(100vw * (727 / 1680));
+    margin-bottom: calc(100vw * (100 / 1680));
+  }
+  .describe_wrap button {
+    width: calc(100vw * (230 / 1680));
+    height: calc(100vw * (55 / 1680));
+    font-size: calc(100vw * (16 / 1680));
+    border-radius: calc(100vw * (10 / 1680));
+  }
+  .descirbe_select > p {
+    margin-bottom: calc(100vw * (80 / 1680));
+    font-size: calc(100vw * (42 / 1680));
+  }
+  .descirbe_select p span {
+    margin-top: calc(100vw * (4 / 1680));
+    font-size: calc(100vw * (24 / 1680));
+  }
+  .descirbe_select button {
+    margin-top: calc(100vw * (70 / 1680));
+    height: calc(100vw * (70 / 1680));
+    font-size: calc(100vw * (16 / 1680));
+  }
+  /* !exhibition describe page */
+
+  /* !news page */
+  .gallery_news {
+    margin-top: calc(100vw * (100 / 1680));
+  }
+  .news_content {
+    width: calc(100vw * (860 / 1680));
+  }
+  .news_title {
+    margin-bottom: calc(100vw * (30 / 1680));
+    gap: calc(100vw * (17 / 1680));
+  }
+  .news_title p,
+  .facebook_title {
+    font-size: calc(100vw * (42 / 1680));
+  }
+  .news_content .select_period {
+    width: calc(100vw * (150 / 1680));
+    padding: calc(100vw * (11 / 1680)) calc(100vw * (18 / 1680));
+    background: url("../images/common/arrow_bottom.svg") center right
+        calc(100vw * (18 / 1680)) / calc(100vw * (20 / 1680)) no-repeat,
+      #eff1f2;
+  }
+  .news_content .select_period.on {
+    background: url("../images/common/arrow_top.svg") center right
+        calc(100vw * (18 / 1680)) / calc(100vw * (20 / 1680)) no-repeat,
+      #eff1f2;
+  }
+  .news_content .period_list {
+    width: calc(100vw * (150 / 1680));
+  }
+  .news_content .thumb_work {
+    margin-bottom: calc(100vw * (50 / 1680));
+    gap: calc(100vw * (100 / 1680)) calc(100vw * (59 / 1680));
+  }
+  .news_content .thumb_work li {
+    width: calc(100vw * (400 / 1680));
+  }
+  .news_content .thumb_work .outer {
+    height: calc(100vw * (324 / 1680));
+  }
+  .news_content .thumb_work img.inner {
+    max-width: calc(100vw * (450 / 1680));
+    max-height: calc(100vw * (280 / 1680));
+  }
+  /* !news area fin */
+  .facebook {
+    width: calc(100% - calc(100vw * (900 / 1680)));
+  }
+  .facebook_title {
+    margin-bottom: calc(100vw * (20 / 1680));
+  }
+  .facebook_embed {
+    height: calc(100vw * (1450 / 1680));
+  }
+  .facebook_embed .inner {
+    width: calc(100vw * (420 / 1680));
+    height: calc(100vw * (1356 / 1680));
+  }
+  .fb_iframe_widget,
+  .facebook_embed iframe,
+  .fb_iframe_widget > span {
+    width: calc(100vw * (420 / 1680)) !important;
+    height: calc(100vw * (1356 / 1680)) !important;
+  }
+  /* !facebook area */
+
+  .news .detail_wrap {
+    padding-bottom: calc(100vw * (80 / 1680));
+    margin-bottom: calc(100vw * (86 / 1680));
+    border-bottom: calc(100vw * (2 / 1680)) solid #eff1f2;
+  }
+  .news .detail_title span {
+    font-size: calc(100vw * (20 / 1680));
+  }
+  .news .detail_title span:not(:last-of-type) {
+    margin-right: calc(100vw * (25 / 1680));
+  }
+}
+/* mobile */
+@media screen and (max-width: 769px) {
+  #wrap_content.intro .section01 .intro_text {
+    font-size: calc(100vw * (36 / 370));
+    line-height: 1;
+  }
+
+  #wrap_content.intro .section01 .intro_text span:first-child {
+    margin-bottom: calc(100vw * (12 / 370));
+  }
+
+  #wrap_content.intro .section01 .skip_button {
+    bottom: calc(100vw * (100 / 370));
+    width: calc(100vw * (155 / 370));
+    height: calc(100vw * (35 / 370));
+    font-size: calc(100vw * (14 / 370));
+    border: calc(100vw * (2 / 370)) solid #fff;
+    border-radius: calc(100vw * (500 / 370));
+  }
+  .main_banner {
+    margin-bottom: calc(100vw * (80 / 370));
+  }
+  .main_slide_list {
+    width: calc(100vw * (350 / 370));
+    height: calc(100vw * (650 / 370));
+  }
+  .main_slide_list img:first-of-type {
+    display: none;
+  }
+  .main_slide_list img:last-of-type {
+    display: block;
+  }
+  .main_txt {
+    width: calc(100vw * (303 / 370));
+    top: calc(100vw * (204 / 370));
+  }
+  .main_txt p:first-of-type {
+    margin-bottom: calc(100vw * (30 / 370));
+    font-size: calc(100vw * (36 / 370));
+    line-height: 1.07;
+  }
+  .main_txt p:last-of-type {
+    margin-bottom: calc(100vw * (40 / 370));
+    font-size: calc(100vw * (14 / 370));
+    line-height: 1.43;
+  }
+  .main_txt button {
+    width: calc(100vw * (277 / 370));
+    height: calc(100vw * (35 / 370));
+    font-size: calc(100vw * (14 / 370));
+    border: calc(100vw * (2 / 370)) solid #ffffff;
+  }
+  .main_txt button {
+    -webkit-backdrop-filter: blur(calc(100vw * (11 / 370)));
+  }
+  /* ! main_banner area fin */
+  .major_work {
+    flex-direction: column;
+    padding: 0 0 calc(100vw * (207 / 370)) calc(100vw * (25 / 370));
+    gap: calc(100vw * (50 / 370));
+    background: url("../images/main/year_bg_mb.png") left
+      calc(100vw * (-5 / 370)) bottom calc(100vw * (-30 / 370)) /
+      calc(100vw * (338 / 370)) no-repeat;
+  }
+  .major_work h2 {
+    padding-top: 0;
+  }
+  .major_work h2 a {
+    margin-top: calc(100vw * (15 / 370));
+  }
+
+  .major_work .work_wrap {
+    flex-direction: column;
+    height: auto;
+    gap: calc(100vw * (15 / 370));
+    margin-right: 0;
+  }
+  .major_work .work_list:first-of-type {
+    margin-bottom: 0;
+  }
+  .work_right .work_list:last-of-type {
+    order: -1;
+  }
+  .major_work .work_img {
+    margin-bottom: calc(100vw * (10 / 370));
+  }
+  .major_work .work_txt p {
+    margin-bottom: 0;
+    font-size: calc(100vw * (14 / 370));
+  }
+  .major_work .work_txt span {
+    font-size: calc(100vw * (14 / 370));
+    font-weight: 400;
+  }
+  .major_work .work_wrap .work_img {
+    width: calc(100vw * (320 / 370));
+    height: calc(100vw * (203 / 370));
+  }
+  .major_work .work_wrap > ul {
+    display: flex;
+    flex-direction: column;
+    gap: calc(100vw * (15 / 370));
+  }
+  .major_work .work_right {
+    align-self: flex-start;
+  }
+  /* !major work area */
+  .season {
+    padding: calc(100vw * (73 / 370)) calc(100vw * (25 / 370));
+  }
+  .season .inner {
+    width: calc(100vw * (323 / 370));
+    flex-direction: column;
+    gap: calc(100vw * (60 / 370));
+  }
+  .season_img {
+    width: calc(100vw * (320 / 370));
+    height: calc(100vw * (295 / 370));
+  }
+  .season_txt {
+    width: calc(100vw * (312 / 370));
+  }
+  .season_txt h2 {
+    margin-bottom: calc(100vw * (20 / 370));
+    font-size: calc(100vw * (30 / 370));
+    line-height: 1.33;
+  }
+  .season_txt p {
+    font-size: calc(100vw * (14 / 370));
+    line-height: 1.57;
+  }
+  .season_txt p:first-of-type {
+    margin-bottom: calc(100vw * (15 / 370));
+  }
+  /* !season_area fin */
+  .about {
+    padding: calc(100vw * (150 / 370)) calc(100vw * (25 / 370));
+    flex-direction: column;
+  }
+  .about h2 {
+    margin-bottom: calc(100vw * (50 / 370));
+    font-size: calc(100vw * (36 / 370));
+    line-height: 1.33;
+  }
+  .about_left {
+    width: calc(100vw * (320 / 370));
+    height: calc(100vw * (264 / 370));
+  }
+  .about_right {
+    padding-top: calc(100vw * (30 / 370));
+    width: 100%;
+  }
+  .about_txt span {
+    margin-bottom: calc(100vw * (20 / 370));
+    font-size: calc(100vw * (18 / 370));
+  }
+  .about_txt p {
+    font-size: calc(100vw * (14 / 370));
+    line-height: 1.57;
+  }
+  .about_txt p:first-of-type {
+    margin-bottom: calc(100vw * (20 / 370));
+  }
+  .about_txt p:last-of-type {
+    margin-bottom: calc(100vw * (15 / 370));
+  }
+  .about_bg01 {
+    width: calc(100vw * (68 / 370));
+    top: calc(100vw * (118 / 370));
+  }
+  .about_bg02 {
+    width: calc(100vw * (100 / 370));
+    left: calc(100vw * (51 / 370));
+  }
+  .about_bg03 {
+    width: calc(100vw * (148 / 370));
+    top: calc(100vw * (88 / 370));
+    left: calc(100vw * (147 / 370));
+  }
+  .about_bg04 {
+    width: calc(100vw * (136 / 370));
+    right: 0;
+  }
+  .about_bg05 {
+    width: calc(100vw * (114 / 370));
+    bottom: calc(100vw * (429 / 370));
+  }
+  /* !abour area fin */
+  .main_exhibition {
+    margin-bottom: calc(100vw * (150 / 370));
+  }
+  .exhib_title {
+    padding-left: calc(100vw * (25 / 370));
+    margin-bottom: calc(100vw * (50 / 370));
+    gap: calc(100vw * (15 / 370));
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .exhib_title a {
+    margin-bottom: 0;
+  }
+  .exhib_slide {
+    width: calc(100vw * (320 / 370));
+    height: calc(100vw * (144 / 370));
+  }
+  .exhib_first {
+    padding-bottom: calc(100vw * (18 / 370));
+  }
+  .main_exhibition .swiper-pagination-bullet {
+    width: calc(100vw * (67 / 370));
+    height: calc(100vw * (3 / 370));
+  }
+  .main_exhibition .swiper-pagination-bullet:not(:last-of-type) {
+    margin: 0 calc(100vw * (10 / 370)) 0 0 !important;
+  }
+  .exhib_second {
+    width: calc(100vw * (167 / 370));
+    margin: calc(100vw * (20 / 370)) 0 0 calc(100vw * (34 / 370));
+  }
+  .exhib_second .exhib_slide_content {
+    width: calc(100vw * (360 / 370));
+  }
+  .exhib_slide_content p {
+    margin-bottom: calc(100vw * (5 / 370));
+    font-size: calc(100vw * (22 / 370));
+  }
+  .exhib_slide_content span {
+    font-size: calc(100vw * (14 / 370));
+  }
+  .main_exhibition button {
+    bottom: calc(100vw * (14 / 370));
+    margin-left: calc(100vw * (125 / 370));
+    width: calc(100vw * (70 / 370));
+    height: calc(100vw * (35 / 370));
+    font-size: calc(100vw * (14 / 370));
+    border: 1px solid #333333;
+  }
+  /* !exhibition area fin */
+  .main_archive {
+    position: relative;
+    padding: 0 calc(100vw * (25 / 370)) calc(100vw * (323 / 370));
+    margin-left: 0;
+    gap: calc(100vw * (30 / 370));
+  }
+  .first .main_archive_img {
+    width: calc(100vw * (320 / 370));
+    height: calc(100vw * (333 / 370));
+  }
+  .second .main_archive_img {
+    width: calc(100vw * (320 / 370));
+    height: calc(100vw * (203 / 370));
+    margin-top: 0;
+  }
+  .third .main_archive_img {
+    width: calc(100vw * (320 / 370));
+    height: calc(100vw * (189 / 370));
+  }
+  .fourth .main_archive_img {
+    width: calc(100vw * (320 / 370));
+    height: calc(100vw * (211 / 370));
+  }
+  .main_archive_top {
+    height: auto;
+    gap: calc(100vw * (30 / 370));
+    flex-direction: column;
+  }
+  .main_archive_bottom {
+    height: auto;
+    gap: calc(100vw * (30 / 370));
+    flex-direction: column;
+  }
+  .main_archive .second div:first-of-type {
+    top: auto;
+    bottom: calc(100vw * (150 / 370));
+  }
+  .main_archive .second span {
+    display: inline-block;
+    margin-bottom: calc(100vw * (5 / 370));
+    font-size: calc(100vw * (18 / 370));
+  }
+  .main_archive .second p {
+    margin-bottom: calc(100vw * (15 / 370));
+    font-size: calc(100vw * (30 / 370));
+  }
+
+  .main_archive .fourth {
+    order: -1;
+  }
+  .main_archive .first p,
+  .main_archive .fourth p {
+    margin: calc(100vw * (10 / 370)) 0 0;
+    font-size: calc(100vw * (14 / 370));
+  }
+  .main_archive .first span,
+  .main_archive .fourth span {
+    font-size: calc(100vw * (14 / 370));
+  }
+
+  .main_archive .second,
+  .main_archive .fourth {
+    align-self: flex-start;
+  }
+  /* !main_archive area fin */
+
+  /* !artist */
+  .about_title {
+    margin: calc(100vw * (80 / 370)) 0 calc(100vw * (70 / 370));
+  }
+  .about_title p {
+    margin-bottom: calc(100vw * (20 / 370));
+    font-size: calc(100vw * (26 / 370));
+  }
+  .about_title div {
+    width: calc(100vw * (320 / 370));
+  }
+  /* .about_title_wrap > div:last-of-type{height: calc(100vw*(380/370));} */
+  /* !about_title area */
+  .about_season {
+    flex-direction: column-reverse;
+    gap: calc(100vw * (60 / 370));
+    margin-bottom: calc(100vw * (150 / 370));
+    padding: calc(100vw * (64 / 370)) calc(100vw * (25 / 370));
+  }
+  .about_season .work_wrap {
+    width: 100%;
+    height: calc(100vw * (574 / 370));
+  }
+  .about_season li {
+    width: calc(100vw * (150 / 370));
+  }
+  .about_season li div {
+    margin-bottom: calc(100vw * (10 / 370));
+  }
+  .about_season li span {
+    font-size: calc(100vw * (14 / 370));
+  }
+  .about_season .left li:first-of-type,
+  .about_season .right li:first-of-type {
+    margin-bottom: calc(100vw * (40 / 370));
+  }
+  .about_season .left li:first-of-type div {
+    height: calc(100vw * (190 / 370));
+  }
+  .about_season .left li:last-of-type div {
+    height: calc(100vw * (150 / 370));
+  }
+
+  .about_season_txt {
+    width: 100%;
+    padding: 0;
+  }
+  .about_season_txt h2 {
+    margin-bottom: calc(100vw * (20 / 370));
+    font-size: calc(100vw * (30 / 370));
+    line-height: 1.33;
+  }
+  .about_season_txt p {
+    font-size: calc(100vw * (14 / 370));
+  }
+  .about_season_txt p:first-of-type {
+    margin-bottom: calc(100vw * (15 / 370));
+  }
+  /* !about_season area */
+  .artist_about {
+    margin-bottom: calc(100vw * (150 / 370));
+  }
+  .artist_about .top {
+    flex-direction: column;
+    padding: 0 calc(100vw * (25 / 370));
+    margin-bottom: calc(100vw * (60 / 370));
+  }
+  .artist_about .bottom {
+    height: calc(100vw * (78 / 370));
+  }
+  .artist_about h2 {
+    margin-bottom: calc(100vw * (50 / 370));
+    font-size: calc(100vw * (30 / 370));
+  }
+  .artist_about h2::before {
+    top: calc(100vw * (-20 / 370));
+  }
+  .artist_about .left p {
+    font-size: calc(100vw * (14 / 370));
+  }
+  .artist_about .left p:not(:last-of-type) {
+    margin-bottom: calc(100vw * (16 / 370));
+  }
+  .artist_about .left {
+    width: 100%;
+  }
+  .artist_about .right {
+    width: calc(100vw * (407 / 370));
+    height: calc(100vw * (335 / 370));
+    margin-right: calc(100vw * (-90 / 370));
+  }
+
+  .work_place_list {
+    width: calc(100vw * (293 / 370));
+  }
+  .work_place_list div,
+  .work_place_list p {
+    width: calc(100vw * (139 / 370));
+    height: calc(100vw * (78 / 370));
+  }
+  .work_place_list p {
+    font-size: calc(100vw * (16 / 370));
+    border-radius: calc(100vw * (200 / 370));
+  }
+  .work_place_list img {
+    border-radius: calc(100vw * (10 / 370));
+  }
+  /* !artist_about */
+
+  .contact_map {
+    margin-bottom: calc(100vw * (100 / 370));
+    padding: calc(100vw * (55 / 370)) calc(100vw * (25 / 370));
+  }
+  #daumRoughmapContainer1685525277650 {
+    width: calc(100vw * (320 / 370)) !important;
+    margin-bottom: calc(100vw * (30 / 370));
+  }
+  #daumRoughmapContainer1685525277650 .wrap_map {
+    height: calc(100vw * (300 / 370)) !important;
+  }
+
+  .contact_map .inner {
+    width: calc(100vw * (986 / 370));
+  }
+  .contact_map .inner p {
+    font-size: calc(100vw * (30 / 370));
+  }
+  .contact_map .inner span {
+    display: block;
+    margin: calc(100vw * (5 / 370)) 0 0 0;
+    font-size: calc(100vw * (16 / 370));
+  }
+  /* !contact map */
+  /* !cv page area */
+  .artist_history {
+    margin: calc(100vw * (80 / 370)) 0 calc(100vw * (150 / 370));
+  }
+  .artist_history .top {
+    flex-direction: column;
+    gap: calc(100vw * (40 / 370));
+    margin-bottom: calc(100vw * (50 / 370));
+  }
+  .history_txt {
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: calc(100vw * (30 / 370));
+  }
+  .history_txt .left,
+  .history_txt .right {
+    width: 100%;
+  }
+  .artist_history h2 {
+    font-size: calc(100vw * (30 / 370));
+    line-height: 1.33;
+  }
+  .artist_history small {
+    margin-top: calc(100vw * (5 / 370));
+    font-size: calc(100vw * (18 / 370));
+  }
+  .history_txt p {
+    margin-bottom: calc(100vw * (15 / 370));
+    font-size: calc(100vw * (22 / 370));
+  }
+  .history_txt ul {
+    padding-left: calc(100vw * (10 / 370));
+  }
+  .history_txt li {
+    padding-left: calc(100vw * (15 / 370));
+    font-size: calc(100vw * (14 / 370));
+    line-height: 1.57;
+  }
+  .history_txt li::before {
+    width: calc(100vw * (3 / 370));
+    height: calc(100vw * (3 / 370));
+    top: calc(100vw * (10 / 370));
+    transform: none;
+  }
+
+  .artist_history .bottom {
+    height: calc(100vw * (150 / 370));
+  }
+  .artist_history .bottom img:first-of-type {
+    display: none;
+  }
+  .artist_history .bottom img:last-of-type {
+    display: block;
+  }
+  /* !history area fin */
+  .awards {
+    margin-bottom: calc(100vw * (30 / 370));
+  }
+  .awards .title {
+    margin-bottom: calc(100vw * (30 / 370));
+    gap: calc(100vw * (5 / 370));
+  }
+  .awards_content ul {
+    margin-bottom: calc(100vw * (150 / 370));
+    flex-direction: column;
+    gap: calc(100vw * (50 / 370));
+  }
+  .awards_content li {
+    width: 100%;
+  }
+  .awards_content_list {
+    margin-bottom: calc(100vw * (25 / 370));
+  }
+  .img_inner {
+    width: calc(100vw * (250 / 370));
+    height: calc(100vw * (250 / 370));
+  }
+  .img_outer {
+    height: calc(100vw * (332 / 370));
+  }
+  .img_outer {
+    border-radius: calc(100vw * (30 / 370));
+  }
+  .img_outer::after {
+    backdrop-filter: blur(calc(100vw * (107 / 370)));
+    border-radius: calc(100vw * (20 / 370));
+  }
+  .awards_content li span {
+    margin-bottom: calc(100vw * (10 / 370));
+    font-size: calc(100vw * (22 / 370));
+  }
+  .awards_content li p {
+    font-size: calc(100vw * (16 / 370));
+    text-align: center;
+  }
+
+  .awards_wrap {
+    width: 100%;
+    display: block;
+  }
+  .awards_wrap .inner {
+    width: 100%;
+  }
+  .awards_wrap .inner div span {
+    margin-bottom: calc(100vw * (5 / 370));
+    font-size: calc(100vw * (18 / 370));
+  }
+  .awards_wrap .inner p {
+    font-size: calc(100vw * (30 / 370));
+  }
+  .awards_wrap .inner > span {
+    width: calc(100vw * (80 / 370));
+    height: calc(100vw * (80 / 370));
+    font-size: calc(100vw * (20 / 370));
+    border: calc(100vw * (2 / 370)) solid #333;
+  }
+
+  /* !awards area fin */
+  .awards_history {
+    position: relative;
+    padding: calc(100vw * (30 / 370)) calc(100vw * (25 / 370))
+      calc(100vw * (150 / 370));
+    flex-direction: column;
+    gap: calc(100vw * (320 / 370));
+    border-top: calc(100vw * (2 / 370)) solid #c5cad1;
+  }
+  /* .awards_history > ul:first-of-type{margin-bottom: calc(100vw*(142/370));} */
+  .awards_history .outer {
+    flex-direction: column;
+    gap: calc(100vw * (5 / 370));
+  }
+  .awards_history .outer:not(:last-of-type) {
+    margin-bottom: calc(100vw * (25 / 370));
+  }
+  .awards_history p {
+    font-size: calc(100vw * (22 / 370));
+  }
+  .awards_history .outer li {
+    padding-left: calc(100vw * (15 / 370));
+    font-size: calc(100vw * (16 / 370));
+  }
+  .organization {
+    display: none;
+  }
+  .organization.mb {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: calc(100vw * (660 / 370));
+    left: 0;
+    padding-bottom: calc(100vw * (30 / 370));
+    border-bottom: calc(100vw * (2 / 370)) solid #c5cad1;
+  }
+  .organization.mb .inner {
+    padding: 0 calc(100vw * (25 / 370));
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .organization.mb .inner p {
+    font-weight: 600;
+    line-height: 1.33;
+    font-size: calc(100vw * (30 / 370));
+    color: #333;
+  }
+  .organization.mb .inner > span {
+    width: calc(100vw * (80 / 370));
+    height: calc(100vw * (80 / 370));
+    font-size: calc(100vw * (20 / 370));
+    border: calc(100vw * (2 / 370)) solid #333;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 50%;
+  }
+  .organization.mb .inner div span {
+    display: block;
+    margin-bottom: calc(100vw * (16 / 370));
+    font-size: calc(100vw * (18 / 370));
+    font-weight: 500;
+  }
+  .organization.mb p {
+    font-size: calc(100vw * (30 / 370));
+  }
+  /* !awards history area */
+  /* !selected work page */
+  .selected {
+    padding-bottom: calc(100vw * (20 / 370));
+  }
+  .selected_works {
+    margin: calc(100vw * (80 / 370)) 0 calc(100vw * (100 / 370));
+  }
+  .selected_title {
+    padding-left: calc(100vw * (25 / 370));
+    margin-bottom: calc(100vw * (30 / 370));
+    gap: calc(100vw * (55 / 370));
+  }
+  .selected_title a {
+    margin-bottom: calc(100vw * (43 / 370));
+  }
+  .selected_slide {
+    width: calc(100vw * (320 / 370));
+    height: calc(100vw * (256 / 370));
+  }
+  .selected_slide .img_content {
+    padding-top: calc(100vw * (15 / 370));
+    height: calc(100vw * (182 / 370));
+  }
+  .selected_slide .img_content img {
+    max-width: calc(100vw * (292 / 370));
+    max-height: calc(100vw * (182 / 370));
+  }
+  .selected_slide .txt_content {
+    width: 100%;
+    bottom: calc(100vw * (13 / 370));
+  }
+  .selected_slide .txt_content p {
+    margin-bottom: calc(100vw * (2 / 370));
+    font-size: calc(100vw * (14 / 370));
+  }
+  .selected_slide .txt_content span {
+    font-size: calc(100vw * (13 / 370));
+  }
+  .selected_first {
+    padding-bottom: calc(100vw * (40 / 370));
+  }
+  .selected_works .swiper-pagination-bullet {
+    width: calc(100vw * (67 / 370));
+    height: calc(100vw * (3 / 370));
+  }
+  .selected_works .swiper-pagination-bullet:not(:last-of-type) {
+    margin: 0 calc(100vw * (10 / 370)) 0 0 !important;
+  }
+  /* !selected works */
+  .latest_works {
+    padding-bottom: calc(100vw * (150 / 370));
+  }
+
+  .latest_title {
+    margin-bottom: calc(100vw * (30 / 370));
+  }
+  .gallery_work {
+    padding: calc(100vw * (15 / 370)) 0 calc(100vw * (20 / 370));
+    margin-bottom: calc(100vw * (40 / 370));
+    gap: calc(100vw * (20 / 370));
+  }
+  .gallery_work .outer {
+    height: calc(100vw * (210 / 370));
+  }
+  .gallery_work #photoBg {
+    border-radius: calc(100vw * (20 / 370));
+  }
+  .gallery_work .outer::after {
+    backdrop-filter: blur(calc(100vw * (94 / 370)));
+    border-radius: calc(100vw * (20 / 370));
+  }
+
+  .gallery_work img.inner {
+    max-width: calc(100vw * (285 / 370));
+    max-height: calc(100vw * (125 / 370));
+  }
+
+  .gallery_work button {
+    width: calc(100vw * (134 / 370));
+    height: calc(100vw * (30 / 370));
+    font-size: calc(100vw * (14 / 370));
+    border-radius: calc(100vw * (5 / 370));
+  }
+
+  .thumb_work {
+    gap: calc(100vw * (40 / 370)) calc(100vw * (16 / 370));
+  }
+  .thumb_work li {
+    width: calc(100vw * (152 / 370));
+  }
+  .thumb_work li.active::after {
+    border-top: calc(100vw * (3 / 370)) solid #c5cad1;
+  }
+  .thumb_work .outer {
+    height: calc(100vw * (98 / 370));
+    margin-bottom: calc(100vw * (10 / 370));
+  }
+  .thumb_work p {
+    width: 100%;
+    height: calc(100vw * (38 / 370));
+    font-size: calc(100vw * (13 / 370));
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 1.45;
+  }
+  .thumb_work img.inner {
+    max-width: calc(100vw * (134 / 370));
+    max-height: calc(100vw * (80 / 370));
+  }
+
+  .select_page .thumb_work p {
+    white-space: wrap;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  .exhibition_describe .thumb_work {
+    flex-direction: column;
+    gap: calc(100vw * (40 / 370));
+  }
+  .exhibition_describe .thumb_work li {
+    width: 100%;
+  }
+  .exhibition_describe .thumb_work .outer {
+    height: calc(100vw * (209 / 370));
+    margin-bottom: calc(100vw * (10 / 370));
+  }
+  .exhibition_describe .thumb_work img.inner {
+    max-width: calc(100vw * (292 / 370));
+    max-height: calc(100vw * (180 / 370));
+  }
+  /* !latest_works */
+
+  .category_wrap {
+    width: 100%;
+    gap: calc(100vw * (30 / 370));
+    flex-direction: column;
+  }
+  .category_wrap .page_list li {
+    font-size: calc(100vw * (16 / 370));
+  }
+  .category_wrap .select_period {
+    width: calc(100vw * (150 / 370));
+    padding: calc(100vw * (8 / 370)) calc(100vw * (18 / 370));
+    background: url("../images/common/arrow_bottom.svg") center right
+        calc(100vw * (18 / 370)) / calc(100vw * (20 / 370)) no-repeat,
+      #eff1f2;
+  }
+  .category_wrap .select_period.on {
+    border-radius: calc(100vw * (23 / 370)) calc(100vw * (23 / 370)) 0 0;
+    background: url("../images/common/arrow_top.svg") center right
+        calc(100vw * (18 / 370)) / calc(100vw * (20 / 370)) no-repeat,
+      #eff1f2;
+  }
+  .category_wrap .period_list {
+    width: calc(100vw * (150 / 370));
+  }
+
+  .category_wrap .select_period.on + .period_list {
+    top: calc(100vw * (40 / 370));
+    border-radius: 0 0 calc(100vw * (23 / 370)) calc(100vw * (23 / 370));
+  }
+  /* !archive page */
+
+  .gallery_container {
+    max-width: 100%;
+    margin: calc(100vw * (50 / 370)) 0 auto;
+  }
+
+  .gallery-wrapper {
+    margin-bottom: calc(100vw * (80 / 370));
+  }
+  .col {
+    width: 100%;
+  }
+
+  /* .grid-sizer,
+      .grid-item{
+          width: calc(100vw*(375/370));
+      } */
+
+  .grid-item {
+    margin-bottom: calc(100vw * (20 / 370));
+  }
+
+  .grid-item .img_content {
+    margin-bottom: calc(100vw * (5 / 370));
+  }
+  .grid-item .txt_content p {
+    margin-bottom: calc(100vw * (5 / 370));
+    font-size: calc(100vw * (10 / 370));
+  }
+  .grid-item .txt_content span {
+    font-size: calc(100vw * (8 / 370));
+  }
+
+  .img-fluid {
+    border-radius: calc(100vw * (10 / 370));
+  }
+  .archive_logo {
+    width: calc(100vw * (150 / 370));
+    height: calc(100vw * (24 / 370));
+  }
+  /* !archive page fin */
+
+  .detail_wrap {
+    margin: calc(100vw * (80 / 370)) auto calc(100vw * (150 / 370));
+  }
+  .news_detail .detail_wrap {
+    margin: calc(100vw * (80 / 370)) auto calc(100vw * (150 / 370));
+    padding-bottom: calc(100vw * (60 / 370));
+  }
+  .detail_title {
+    padding-bottom: calc(100vw * (30 / 370));
+    margin-bottom: calc(100vw * (50 / 370));
+    border-bottom: calc(100vw * (2 / 370)) solid #333;
+  }
+  .detail_title p {
+    margin-bottom: calc(100vw * (5 / 370));
+    font-size: calc(100vw * (26 / 370));
+  }
+  .detail_title small {
+    font-size: calc(100vw * (14 / 370));
+  }
+
+  .detail_content {
+    width: 100%;
+  }
+  .detail_content .img_content {
+    margin-bottom: calc(100vw * (30 / 370));
+  }
+  .detail_content .txt_content {
+    margin-bottom: calc(100vw * (80 / 370));
+    font-size: calc(100vw * (16 / 370));
+  }
+  .detail_content button {
+    width: calc(100vw * (200 / 370));
+    height: calc(100vw * (45 / 370));
+    font-size: calc(100vw * (14 / 370));
+    border-radius: calc(100vw * (10 / 370));
+    border: none;
+    color: #fff;
+    background: #333;
+  }
+
+  .works_move_wrap {
+    margin-top: calc(100vw * (60 / 370));
+    padding-top: calc(100vw * (50 / 370));
+    border-top: calc(100vw * (2 / 370)) solid #eff1f2;
+  }
+  .works_move_wrap > div {
+    width: calc(100vw * (160 / 370));
+    height: calc(100vw * (60 / 370));
+  }
+  .works_move_wrap > div > img {
+    height: 100%;
+  }
+  .works_move_wrap > div::after {
+    opacity: 0.3;
+  }
+  .works_move_wrap .inner {
+    gap: calc(100vw * (5 / 370));
+  }
+  .works_prev .inner {
+    left: calc(100vw * (10 / 370));
+  }
+  .works_next .inner {
+    right: calc(100vw * (10 / 370));
+  }
+  .works_move_wrap .inner div:first-of-type {
+    width: calc(100vw * (50 / 370));
+  }
+  .works_move_wrap > div span {
+    font-size: calc(100vw * (14 / 370));
+  }
+  /* !archive detailpt page */
+
+  /* !exhibition page area */
+  .exhibit_works {
+    margin: calc(100vw * (50 / 370)) auto calc(100vw * (150 / 370));
+  }
+  .exhibit_works_content ul {
+    flex-direction: column;
+    gap: calc(100vw * (40 / 370));
+  }
+  .exhibit_works_content li {
+    width: calc(100vw * (320 / 370));
+  }
+  .exhibit_works_content .outer {
+    height: calc(100vw * (209 / 370));
+  }
+  .exhibit_works_content img.inner {
+    max-width: calc(100vw * (292 / 370));
+    max-height: calc(100vw * (181 / 370));
+  }
+  .exhibit_works_content .thumb_work {
+    margin-bottom: calc(100vw * (60 / 370));
+  }
+  .exhibit_works_content .thumb_work span,
+  .news_content .thumb_work span {
+    margin-top: calc(100vw * (5 / 370));
+    font-size: calc(100vw * (13 / 370));
+  }
+  .exhibition button,
+  .news_content button {
+    height: calc(100vw * (55 / 370));
+    font-size: calc(100vw * (14 / 370));
+    background: #333;
+    color: #fff;
+    border: none;
+  }
+  /* !exhibition page fin */
+  .describe_content {
+    width: calc(100vw * (320 / 370));
+    margin: calc(100vw * (60 / 370)) auto calc(100vw * (40 / 370));
+    padding: 0;
+    flex-direction: column;
+    gap: calc(100vw * (50 / 370));
+  }
+  .describe_left h2 {
+    margin-bottom: calc(100vw * (15 / 370));
+    font-size: calc(100vw * (26 / 370));
+  }
+  .work_period {
+    width: calc(100vw * (267 / 370));
+    height: calc(100vw * (40 / 370));
+    margin-bottom: calc(100vw * (15 / 370));
+    gap: calc(100vw * (15 / 370));
+    border-radius: calc(100vw * (24 / 370));
+  }
+  .work_period span,
+  .describe_left p {
+    font-size: calc(100vw * (16 / 370));
+  }
+  .describe_right {
+    width: 100%;
+  }
+  .describe_right p {
+    font-size: calc(100vw * (16 / 370));
+  }
+  .describe_right p:not(:last-of-type) {
+    margin-bottom: calc(100vw * (20 / 370));
+  }
+  .describe_works {
+    padding-top: calc(100vw * (50 / 370));
+    margin-bottom: calc(100vw * (150 / 370));
+    border-top: calc(100vw * (2 / 370)) solid #333;
+  }
+  .describe_wrap {
+    padding-bottom: calc(100vw * (80 / 370));
+    margin-bottom: calc(100vw * (80 / 370));
+    border-bottom: calc(100vw * (2 / 370)) solid #eff1f2;
+  }
+  .describe_img {
+    height: calc(100vw * (166 / 370));
+    margin-bottom: calc(100vw * (80 / 370));
+  }
+  .describe_wrap button {
+    width: calc(100vw * (200 / 370));
+    height: calc(100vw * (45 / 370));
+    font-size: calc(100vw * (14 / 370));
+    border-radius: calc(100vw * (10 / 370));
+    border: none;
+    background: #333;
+    color: #fff;
+  }
+  .descirbe_select > p {
+    margin-bottom: calc(100vw * (50 / 370));
+    font-size: calc(100vw * (26 / 370));
+  }
+  .descirbe_select p span {
+    margin-top: calc(100vw * (5 / 370));
+    font-size: calc(100vw * (16 / 370));
+  }
+  .descirbe_select button {
+    margin-top: calc(100vw * (60 / 370));
+    height: calc(100vw * (55 / 370));
+    font-size: calc(100vw * (14 / 370));
+    color: #fff;
+    background: #333;
+    border: none;
+  }
+  /* !exhibition describe page */
+
+  /* !news page */
+  .gallery_news {
+    gap: calc(100vw * (120 / 370));
+    margin: calc(100vw * (50 / 370)) auto calc(100vw * (150 / 370));
+    flex-direction: column;
+  }
+  .news_content {
+    width: calc(100vw * (320 / 370));
+    margin: 0 auto;
+  }
+  .news_title {
+    margin-bottom: calc(100vw * (50 / 370));
+    gap: calc(100vw * (15 / 370));
+    flex-direction: column;
+  }
+  .news_title p,
+  .facebook_title {
+    font-size: calc(100vw * (26 / 370));
+  }
+  .news_content .select_period {
+    width: calc(100vw * (150 / 370));
+    padding: calc(100vw * (11 / 370)) calc(100vw * (18 / 370));
+    background: url("../images/common/arrow_bottom.svg") center right
+        calc(100vw * (18 / 370)) / calc(100vw * (20 / 370)) no-repeat,
+      #eff1f2;
+  }
+  .news_content .select_period.on {
+    background: url("../images/common/arrow_top.svg") center right
+        calc(100vw * (18 / 370)) / calc(100vw * (20 / 370)) no-repeat,
+      #eff1f2;
+  }
+  .news_content .period_list {
+    width: calc(100vw * (150 / 370));
+  }
+  .news_content .thumb_work {
+    margin-bottom: calc(100vw * (76 / 370));
+    flex-direction: column;
+    gap: calc(100vw * (38 / 370));
+  }
+  .news_content .thumb_work li {
+    width: calc(100vw * (320 / 370));
+  }
+  .news_content .thumb_work .outer {
+    height: calc(100vw * (210 / 370));
+  }
+  .news_content .thumb_work img.inner {
+    max-width: calc(100vw * (292 / 370));
+    max-height: calc(100vw * (181 / 370));
+  }
+  /* !news area fin */
+  .facebook {
+    width: 100%;
+  }
+  .facebook_title {
+    margin-bottom: calc(100vw * (50 / 370));
+    text-align: center;
+  }
+  .facebook_embed {
+    height: calc(100vw * (1111 / 370));
+  }
+  .facebook_embed .inner {
+    width: calc(100vw * (320 / 370));
+    height: calc(100vw * (1033 / 370));
+  }
+  .fb_iframe_widget,
+  .facebook_embed iframe,
+  .fb_iframe_widget > span {
+    width: calc(100vw * (320 / 370)) !important;
+    height: calc(100vw * (1033 / 370)) !important;
+  }
+  /* !facebook area */
+
+  .news .detail_wrap {
+    padding-bottom: calc(100vw * (60 / 370));
+    margin-bottom: calc(100vw * (150 / 370));
+    border-bottom: calc(100vw * (2 / 370)) solid #eff1f2;
+  }
+  .news .detail_title span {
+    font-size: calc(100vw * (14 / 370));
+  }
+  .news .detail_title span:not(:last-of-type) {
+    margin-right: calc(100vw * (10 / 370));
+  }
+
+  .grid-sizer,
+  .grid-item {
+    width: 48%;
+  }
+}

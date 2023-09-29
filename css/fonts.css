@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@font-face {
+  font-family: "Poppins";
+  src: local("SUIT Regular"), url("./SUIT-Regular.woff2") format("woff2");
+  unicode-range: U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("SUIT Medium"), url("./SUIT-Medium.woff2") format("woff2");
+  unicode-range: U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("SUIT SemiBold"), url("./SUIT-SemiBold.woff2") format("woff2");
+  unicode-range: U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("SUIT Bold"), url("./SUIT-Bold.woff2") format("woff2");
+  unicode-range: U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("SUIT ExtraBold"), url("./SUIT-ExtraBold.woff2") format("woff2");
+  unicode-range: U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("SUIT Heavy"), url("./SUIT-Heavy.woff2") format("woff2");
+  unicode-range: U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Poppins-number";
+  src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+  unicode-range: U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins-number";
+  src: url("../fonts/Poppins-Medium.ttf") format("truetype");
+  unicode-range: U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Poppins-number";
+  src: url("../fonts/Poppins-SemiBold.ttf") format("truetype");
+  unicode-range: U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Poppins-number";
+  src: url("../fonts/Poppins-Bold.ttf") format("truetype");
+  unicode-range: U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Poppins-number";
+  src: url("../fonts/Poppins-ExtraBold.ttf") format("truetype");
+  unicode-range: U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Poppins-number";
+  src: url("../fonts/Poppins-Black.ttf") format("truetype");
+  unicode-range: U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+  font-weight: 900;
+}
